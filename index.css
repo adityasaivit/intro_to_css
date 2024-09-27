@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "./base.css";
+
+
+/* developing the header */
+/* previously table elements were used heavily */
+/* it is common for the older code basis */
+
+/* display prop come in from inline to block */
+/* inline-block which was they are block and then they display as inline */
+
+/* floats but many times floats dosent work properly */
+
+/* positioning with floats were completely difficult */
+
+/* flexbox new era */
+/* display:flex */
+/* ehich will make all the elements elgned into a single line */
+
+/* row, row reverse , column, column-reverse */
+
+/* those were all the possible forms of styling a flex box */
+
+
+/* column -reverse the direction of the elements */
+
+/* justify-content:flex-end */
+/* justify-contet:center,space-between,space-around,space-evenly,flex-start, */
+
+/* align-item:flex-start,flex-end,center,stretch, center */
+
+/* flex-wrap  no-wrap ,wrap, wrap-reverse */
+
+/* we have grip tool in css which was a 2d css layout  */
+
+/* we can also use the percentage */
+
+/* combinators */
+
+/* we can combine the selectors so that it wil give some meaning to them */
+
+/* > was the dorect descendent */
+/* div.text>p  will style for the immediate child of the selector*/
+
+/* img+p which was the json type combinator they must be second part must follw immediate of the parent and they must belong to the same parent */
+
+/* p~code which was the general combinator */
+/* match all code elements */
+
+/* symbols do not add any weight to the specificity of the selector */
+
+/* p~ was the siblings not the parent child concept */
+
+/* they are in the same level */
+
+/* flexbox vs grid flexbox was an one dimentional but we use grid when there is a two dimentional work have to be done */
+
+/* block element modifier(BEM) */
+/* oocss smacss suitcvss  */
+
+
+.main{
+    padding:150px;
+}
+
+.main-heading{
+    font-size:128px;
+    font-weight:bold;
+    padding-left:60px;
+}
+
+
+.main-sub-heading{
+    font-size:40px;
+    padding-left:60px;
+}
